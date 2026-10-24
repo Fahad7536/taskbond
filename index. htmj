@@ -1,1 +1,24 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TaskBond</title>
+<style>
+body{font-family:Arial;background:#f0f7f2;text-align:center;padding:25px;color:#16452d}
+.card{background:white;padding:25px;border-radius:15px;margin:20px auto;max-width:400px}
+button{background:#176b43;color:white;border:0;padding:12px 20px;border-radius:8px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>🌿 TaskBond</h1>
+<p>স্বাগতম! তোমার নিজের অনলাইন প্ল্যাটফর্ম।</p>
+<h3>ছোট কাজ করো, দক্ষতা বাড়াও</h3>
+<button onclick="alert('TaskBond ডেমো চালু আছে!')">শুরু করো</button>
+<p>এটি প্রাথমিক ডেমো, প্রকৃত পেমেন্ট এখনো চালু নয়।</p>
+</div>
+</body>
+</html>
+
