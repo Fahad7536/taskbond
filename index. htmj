@@ -1,24 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="bn">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TaskBond</title>
 <style>
-body{font-family:Arial;background:#f0f7f2;text-align:center;padding:25px;color:#16452d}
-.card{background:white;padding:25px;border-radius:15px;margin:20px auto;max-width:400px}
-button{background:#176b43;color:white;border:0;padding:12px 20px;border-radius:8px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f7f5;color:#18352a}
+header{background:#087f5b;color:white;padding:22px 18px;border-radius:0 0 24px 24px}
+header h1{margin:0;font-size:27px}
+header p{margin-bottom:0}
+.container{padding:18px;max-width:600px;margin:auto}
+.card{background:white;padding:18px;border-radius:16px;margin:14px 0;box-shadow:0 3px 12px #0000000b}
+h2{font-size:19px;margin-top:0}
+.item{display:flex;align-items:center;gap:12px}
+.emoji{font-size:27px}
+button{border:0;border-radius:10px;padding:12px 16px;background:#087f5b;color:white;font-size:15px;width:100%;margin-top:10px}
+.note{font-size:13px;color:#64746c;line-height:1.6}
 </style>
 </head>
 <body>
-<div class="card">
+<header>
 <h1>🌿 TaskBond</h1>
-<p>স্বাগতম! তোমার নিজের অনলাইন প্ল্যাটফর্ম।</p>
-<h3>ছোট কাজ করো, দক্ষতা বাড়াও</h3>
-<button onclick="alert('TaskBond ডেমো চালু আছে!')">শুরু করো</button>
-<p>এটি প্রাথমিক ডেমো, প্রকৃত পেমেন্ট এখনো চালু নয়।</p>
+<p>ছোট কাজ, নতুন সুযোগ!</p>
+</header>
+<div class="container">
+<div class="card">
+<h2>স্বাগতম TaskBond-এ! 💚</h2>
+<p>ছোট ছোট কাজ শেখো এবং রিওয়ার্ড অর্জনের সুযোগ নাও।</p>
 </div>
+<div class="card">
+<div class="item">
+<span class="emoji">✅</span>
+<div><h2>ছোট ছোট কাজ</h2><p>বিভিন্ন কাজের তালিকা এখানে থাকবে।</p></div>
+</div>
+<button onclick="showMessage('কাজের তালিকা এখনো তৈরি হচ্ছে।')">কাজ দেখো</button>
+</div>
+<div class="card">
+<div class="item">
+<span class="emoji">👥</span>
+<div><h2>Refer & Earn</h2><p>বন্ধুদের আমন্ত্রণের ব্যবস্থা।</p></div>
+</div>
+<button onclick="showMessage('রেফার সিস্টেম এখনো তৈরি হচ্ছে।')">রেফার দেখো</button>
+</div>
+<div class="card">
+<div class="item">
+<span class="emoji">🎁</span>
+<div><h2>Rewards</h2><p>রিওয়ার্ডের তথ্য এখানে দেখা যাবে।</p></div>
+</div>
+<button onclick="showMessage('রিওয়ার্ড সিস্টেম এখনো তৈরি হচ্ছে।')">রিওয়ার্ড দেখো</button>
+</div>
+<div class="card">
+<h2>📌 গুরুত্বপূর্ণ তথ্য</h2>
+<p class="note">TaskBond-এর কাজ, রেফার এবং রিওয়ার্ডের নিয়ম চালু হলে এখানে জানানো হবে। কোনো আয়ের নিশ্চয়তা এখনো দেওয়া হচ্ছে না।</p>
+</div>
+</div>
+<script>
+function showMessage(message){
+alert(message);
+}
+</script>
 </body>
 </html>
-
