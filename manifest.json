@@ -1,0 +1,9 @@
+{
+  "name": "TaskBond",
+  "short_name": "TaskBond",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f0f7f2",
+  "theme_color": "#176b43",
+  "description": "TaskBond - Small tasks and referral platform"
+}
