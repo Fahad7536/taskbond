@@ -3,7 +3,15 @@
   "short_name": "TaskBond",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f0f7f2",
+  "background_color": "#0b0920",
   "theme_color": "#176b43",
-  "description": "TaskBond - Small tasks and referral platform"
+  "description": "TaskBond - Small tasks and referral platform",
+  "icons": [
+    {
+      "src": "./file_000000007fe481fa835ff97a6c221eb2.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
