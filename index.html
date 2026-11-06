@@ -69,7 +69,8 @@ const firebaseConfig = {
   appId: "1:301941331092:web:7ceb0fff084118721b1081",
   measurementId: "G-E34PNDT6L8"
 };
-function showMessage(message){
+firebase.initializeApp(firebaseConfig);
+  function showMessage(message){
 alert(message);
 }
 </script>
